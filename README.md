@@ -1,16 +1,89 @@
-# React + Vite
+Elo Solidário
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Plataforma web desenvolvida para conectar pessoas que desejam ajudar com instituições e comunidades que precisam de doações.
 
-Currently, two official plugins are available:
+O projeto foi criado com foco em acessibilidade, responsividade e experiência do usuário, permitindo visualizar necessidades urgentes de forma simples e intuitiva.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Status do Projeto
 
-## React Compiler
+🚧 Projeto em desenvolvimento.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Atualmente o foco está na construção das interfaces front-end e responsividade da aplicação.
 
-## Expanding the ESLint configuration
+Próximas etapas:
+Finalização das páginas restantes
+Integração com API
+Desenvolvimento do back-end
+Sistema de autenticação
+Persistência de dados
+Cadastro e gerenciamento de doações
+Funcionalidades
+Página inicial moderna e responsiva
+Cards de necessidades urgentes
+Sistema visual de prioridade
+Layout adaptado para desktop, tablet e mobile
+Componentização com React
+Estilização com SCSS Modules
+Tecnologias Utilizadas
+React
+Vite
+JavaScript
+SCSS Modules
+HTML5
+CSS3
+Git
+GitHub
+Estrutura do Projeto
+src/
+ ├── assets/
+ ├── components/
+ │    └── infoCard/
+ ├── pages/
+ │    ├── home/
+ │    └── voluntariado/
+ ├── routes/
+ ├── App.jsx
+ └── main.jsx
+Como Executar o Projeto
+Clone o repositório
+git clone https://github.com/JessicaTrindade013/elo-solidario.git
+Acesse a pasta do projeto
+cd elo-solidario
+Instale as dependências
+npm install
+Execute o projeto
+npm run dev
+Responsividade
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+O projeto foi desenvolvido utilizando abordagem responsiva para garantir boa experiência em diferentes dispositivos:
+
+Desktop
+Notebook
+Tablet
+Smartphones
+Aprendizados
+
+Durante o desenvolvimento deste projeto foram praticados conceitos como:
+
+Componentização
+Responsividade
+Organização de pastas
+CSS Modules
+Grid Layout
+Flexbox
+Versionamento com Git
+Publicação no GitHub
+Melhorias Futuras
+Integração com API REST
+Sistema de login e autenticação
+Cadastro de campanhas
+Página de detalhes das doações
+Área administrativa
+Banco de dados
+Dashboard de gerenciamento
+Autora
+
+Desenvolvido por Jessica Trindade.
+
+GitHub:
+JessicaTrindade013
