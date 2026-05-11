@@ -1,0 +1,209 @@
+.home{
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.homeSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 0;
+  gap: 2rem;
+
+}
+
+.doacao {
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    font-size: 3rem;
+    color: #0a192f;
+    margin-bottom: 1rem;
+  }
+  p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 2rem;
+    max-width: 500px;
+  }
+}
+
+.botoesDoacao {
+  display: flex;
+  gap: 1.5rem;
+
+  .btnDoacao {
+    background-color: #008000;
+    color: #ffffff;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: #9ce99c;
+      color: #ffffff;
+      border-color: transparent;
+    }
+  }
+
+  .btnAjuda {
+    background-color: transparent;
+    color: #008000;
+    padding: 0.75rem 1.5rem;
+    border: 2px solid #008000;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s;
+
+    &:hover {
+      background-color: #9ce99c;
+      color: #ffffff;
+      border-color: transparent;
+
+}}}
+
+.imagemDoacao {
+  
+  display: flex;
+  justify-content: center;
+  
+  img {
+    width: 100%;
+    max-width: 450px;
+  }
+}
+
+
+.needsHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+
+  h2 { 
+    font-size: 1.8rem; 
+    color: #0a192f; 
+  }
+  a { 
+    color: #2da0ca; 
+    font-weight: 600; 
+    text-decoration: none; 
+    &:hover { text-decoration: underline; }
+  }
+}
+
+.needsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2rem;
+  width: 100%;
+}
+
+
+@media (max-width: 1024px) {
+  .home {
+    padding: 1.5rem;
+  }
+
+  .homeSection {
+    gap: 3rem;
+  }
+
+  .doacao {
+    h1 {
+      font-size: 2.5rem;
+    }
+  }
+
+  .needsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .home {
+    padding: 1rem;
+  }
+
+  .homeSection {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 0;
+  }
+
+  .doacao {
+    align-items: center;
+
+    h1 {
+      font-size: 2rem;
+      line-height: 1.2;
+    }
+
+    p {
+      max-width: 100%;
+      font-size: 1rem;
+    }
+  }
+
+  .botoesDoacao {
+    width: 100%;
+    flex-direction: column;
+
+    .btnDoacao,
+    .btnAjuda {
+      width: 100%;
+    }
+  }
+
+  .imagemDoacao {
+    width: 100%;
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  .needsHeader {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
+
+  .needsGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .doacao {
+    h1 {
+      font-size: 1.7rem;
+    }
+
+    p {
+      font-size: 0.95rem;
+    }
+  }
+
+  .cardContent {
+    h2 {
+      font-size: 1.1rem;
+    }
+
+    p {
+      font-size: 0.95rem;
+    }
+  }
+}
+
